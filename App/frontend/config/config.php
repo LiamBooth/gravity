@@ -1,10 +1,10 @@
 <?php
 
   // database parameters
-  define('DB_HOST', 'localhost');
-  define('DB_USER', 'fluidsit_liam');
-  define('DB_PASS', 'uh8eh8y4944y');
-  define('DB_NAME', 'fluidsit_app');
+  define('DB_HOST', 'ENTER_HOST');
+  define('DB_USER', 'ENTER_USERNAME');
+  define('DB_PASS', 'ENTER_PASSWORD');
+  define('DB_NAME', 'ENTER_DB_NAME');
 
 // app root
   define('APPROOT', dirname(dirname(__FILE__)));// using the dirname twice goes back up a folder
@@ -13,7 +13,7 @@
   define('URLROOT', 'http://app.gravitysites.co.uk');
 
   // site name
-  define('SITENAME', 'Boothys App');
+  define('SITENAME', 'ENTER_SITENAME');
 
   // app version
   define('APPVERSION', '1.1.0');
