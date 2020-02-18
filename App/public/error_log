@@ -504,3 +504,17 @@ Stack trace:
 #1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
 #2 {main}
   thrown in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 128
+[17-Feb-2020 19:54:09 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/controllers/Pages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php on line 26
+[17-Feb-2020 23:36:49 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php:8
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(44): Pages->index('favicon.ico')
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php on line 8
+[17-Feb-2020 23:36:50 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php:8
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(44): Pages->index()
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php on line 8
+[18-Feb-2020 09:21:02 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../admin/bootstrap.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/public/index.php on line 2
