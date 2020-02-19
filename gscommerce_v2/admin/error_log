@@ -1,0 +1,82 @@
+[18-Feb-2020 19:36:56 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[18-Feb-2020 19:46:00 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[18-Feb-2020 19:46:00 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[19-Feb-2020 12:20:57 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[19-Feb-2020 12:22:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:22:20 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:23:04 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[19-Feb-2020 12:23:05 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[19-Feb-2020 12:23:49 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:25:13 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:25:15 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:25:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:25:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:32:01 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php:5
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(27): Posts->__construct()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php on line 5
+[19-Feb-2020 12:33:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php:5
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(27): Posts->__construct()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php on line 5
+[19-Feb-2020 12:53:26 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../models/User.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php on line 10
