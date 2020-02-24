@@ -1,0 +1,660 @@
+[22-Jan-2020 22:06:30 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[22-Jan-2020 22:06:39 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:35:37 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:36:45 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:38:03 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:39:04 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:39:13 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:40:18 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:03 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:04 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:12 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:38 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:39 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:45 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:46 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:46 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:52 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:41:53 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/models/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Controller.php on line 10
+[23-Jan-2020 12:43:10 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fluidsit_app.posts' doesn't exist in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php(11): Database->resultsSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Pages.php(8): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Pages->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php on line 62
+[23-Jan-2020 12:43:14 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fluidsit_app.posts' doesn't exist in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php(11): Database->resultsSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Pages.php(8): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Pages->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php on line 62
+[23-Jan-2020 12:46:59 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fluidsit_app.posts' doesn't exist in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php(11): Database->resultsSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Pages.php(8): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Pages->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php on line 62
+[23-Jan-2020 12:47:11 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'fluidsit_app.posts' doesn't exist in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php(11): Database->resultsSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Pages.php(8): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Pages->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/libraries/Database.php on line 62
+[13-Feb-2020 19:38:03 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:10
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('johndoe@gmail.c...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 10
+[13-Feb-2020 19:49:14 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('johndoe@gmail.c...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 19:49:28 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('johndoe@gmail.c...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 19:50:57 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('johndoe@gmail.c...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 19:51:07 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('liam-sxi@sky.co...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 20:00:10 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('liam-sxi@sky.co...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 20:04:44 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('liam-sxi@sky.co...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 20:18:59 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('liam-sxi@sky.co...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 20:19:09 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('liam-sxi@sky.co...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 20:19:13 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(32): User->findUserByEmail('liam-sxi@sky.co...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 20:24:30 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function query() in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php:26
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Users.php(33): User->findUserByEmail('liam-sxi@sky.co...')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Users->register()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/User.php on line 26
+[13-Feb-2020 22:52:14 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function isLoggedIn() in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php:4
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(28): Posts->__construct()
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 4
+[13-Feb-2020 23:02:08 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:03:38 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:03:42 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:03:51 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:03:53 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:03:53 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:04:14 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:05:23 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:05:24 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:05:25 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:06:01 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:06:02 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:13 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:19 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:28 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:29 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:45 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:46 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:46 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:47 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:47 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:47 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:08:47 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:09:01 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:09:50 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:09:51 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:30 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:31 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:32 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:51 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:52 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:53 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:53 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:54 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:54 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:54 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:54 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:54 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:54 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:10:54 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:11:25 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:11:27 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:11:51 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:11:52 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:11:53 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:11:54 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:11:55 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:11:55 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:13:02 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:13:03 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:13:03 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:13:03 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:13:03 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:13:03 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:14:00 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:14:08 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:14:21 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:14:43 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:09 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:16 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:24 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:58 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:58 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:59 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:59 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:59 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:17:59 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:00 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:00 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:00 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:00 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:00 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:00 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:01 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:01 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:01 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:01 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:01 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:19 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:19 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:20 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:20 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:20 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:20 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:31 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:31 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:31 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:32 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:32 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:32 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:33 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:33 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:33 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:33 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:33 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:34 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:34 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:18:34 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:23:06 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:23:07 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Post.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/app/bootstrap.php on line 15
+[13-Feb-2020 23:25:17 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:25:18 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:26:12 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:26:22 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:26:27 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index('inde')
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:26:30 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:26:39 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:27:29 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:27:30 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:27:31 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:27:31 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:29:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:29:34 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:29:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:29:35 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:29:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:29:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:29:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:29:36 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:30:17 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:30:18 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:30:32 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:30:33 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:31:18 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:31:19 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:31:19 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:31:19 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:31:20 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:31:20 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:31:22 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[13-Feb-2020 23:33:29 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method Database::resultSet() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:21
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(13): Post->getPosts()
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->index()
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 21
+[16-Feb-2020 22:48:16 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 72
+[16-Feb-2020 22:48:18 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 72
+[16-Feb-2020 22:48:21 Europe/London] PHP Parse error:  syntax error, unexpected '=>' (T_DOUBLE_ARROW) in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 72
+[16-Feb-2020 22:54:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function bind() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:43
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(72): Post->getPostById('4')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->show('4')
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 43
+[16-Feb-2020 22:54:42 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function bind() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:43
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(72): Post->getPostById('4')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->show('4')
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 43
+[16-Feb-2020 22:54:43 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function bind() in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php:43
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php(72): Post->getPostById('4')
+#1 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->show('4')
+#2 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#3 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/models/Post.php on line 43
+[16-Feb-2020 23:02:06 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method User::getUserById() in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php:74
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->show('4')
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 74
+[16-Feb-2020 23:02:10 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined method User::getUserById() in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php:74
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->show('4')
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 74
+[16-Feb-2020 23:37:57 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function deletePost() in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php:128
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->delete('4')
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 128
+[16-Feb-2020 23:38:08 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function deletePost() in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php:128
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/app/libraries/Core.php(44): Posts->delete('4')
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/app/controllers/Posts.php on line 128
+[17-Feb-2020 19:54:09 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../app/controllers/Pages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php on line 26
+[17-Feb-2020 23:36:49 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php:8
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(44): Pages->index('favicon.ico')
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php on line 8
+[17-Feb-2020 23:36:50 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php:8
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(44): Pages->index()
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php on line 8
+[18-Feb-2020 09:21:02 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../admin/bootstrap.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/public/index.php on line 2
+[18-Feb-2020 13:16:11 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Packages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/bootstrap.php on line 14
+[18-Feb-2020 13:16:52 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Packages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/bootstrap.php on line 14
+[18-Feb-2020 13:21:18 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Packages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/bootstrap.php on line 14
+[18-Feb-2020 13:22:07 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Packages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/bootstrap.php on line 14
+[18-Feb-2020 13:23:19 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Packages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/bootstrap.php on line 14
+[18-Feb-2020 13:23:20 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Packages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/bootstrap.php on line 14
+[18-Feb-2020 13:23:24 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'libraries/Packages.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/bootstrap.php on line 14
+[18-Feb-2020 13:25:33 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:28
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:26:56 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:28
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:29:32 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:28
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:31:25 Europe/London] PHP Fatal error:  Cannot declare class Portfolio, because the name is already in use in /home/fluidsit/app.gravitysites.co.uk/frontend/models/Portfolio.php on line 2
+[18-Feb-2020 13:32:32 Europe/London] PHP Fatal error:  Cannot declare class Portfolio, because the name is already in use in /home/fluidsit/app.gravitysites.co.uk/frontend/models/Portfolio.php on line 2
+[18-Feb-2020 13:32:32 Europe/London] PHP Fatal error:  Cannot declare class Portfolio, because the name is already in use in /home/fluidsit/app.gravitysites.co.uk/frontend/models/Portfolio.php on line 2
+[18-Feb-2020 13:39:37 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/frontend/controllers/Pages.php:8
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php(44): Pages->index('favicon.ico')
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/controllers/Pages.php on line 8
+[18-Feb-2020 13:39:40 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/frontend/controllers/Pages.php:8
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php(44): Pages->index('portfolio')
+#1 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/controllers/Pages.php on line 8
+[18-Feb-2020 13:42:31 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:28
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:43:11 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:28
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:43:47 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:28
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:45:56 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:28
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:45:56 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:28
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:50:52 Europe/London] PHP Catchable fatal error:  Object of class Pages could not be converted to string in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:50:53 Europe/London] PHP Catchable fatal error:  Object of class Pages could not be converted to string in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 28
+[18-Feb-2020 13:57:27 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:27
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 27
+[18-Feb-2020 14:05:04 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:27
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 27
+[18-Feb-2020 14:05:06 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:27
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 27
+[18-Feb-2020 14:06:10 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:27
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 27
+[18-Feb-2020 14:06:28 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:27
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 27
+[18-Feb-2020 14:06:45 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:27
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 27
+[18-Feb-2020 14:06:48 Europe/London] PHP Fatal error:  Uncaught Error: Class 'Packages' not found in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php:27
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/public/index.php(5): Core->__construct()
+#1 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Core.php on line 27
+[18-Feb-2020 21:59:04 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[18-Feb-2020 22:00:02 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[18-Feb-2020 22:00:03 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[18-Feb-2020 22:00:27 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[18-Feb-2020 22:01:03 Europe/London] PHP Fatal error:  Cannot redeclare isLoggedIn() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/session_helper.php:28) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/session_helper.php on line 28
+[18-Feb-2020 22:01:05 Europe/London] PHP Fatal error:  Cannot redeclare isLoggedIn() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/session_helper.php:28) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/session_helper.php on line 28
+[18-Feb-2020 22:02:10 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[18-Feb-2020 22:02:14 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[18-Feb-2020 22:02:44 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[18-Feb-2020 23:08:51 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[18-Feb-2020 23:08:55 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[18-Feb-2020 23:10:18 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 09:27:47 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 09:27:47 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 11:20:54 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 11:30:40 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[19-Feb-2020 11:31:41 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[19-Feb-2020 11:31:48 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[19-Feb-2020 11:32:05 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[19-Feb-2020 11:32:32 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[19-Feb-2020 11:32:39 Europe/London] PHP Fatal error:  require_once(): Failed opening required 'helpers/url_helper.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/bootstrap.php on line 5
+[19-Feb-2020 11:33:17 Europe/London] PHP Fatal error:  Cannot redeclare isLoggedIn() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/session_helper.php:28) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/session_helper.php on line 28
+[19-Feb-2020 12:18:45 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/fluidsit/app.gravitysites.co.uk/admin/config/config.php on line 10
+[19-Feb-2020 12:18:47 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/fluidsit/app.gravitysites.co.uk/admin/config/config.php on line 10
+[19-Feb-2020 12:18:59 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/fluidsit/app.gravitysites.co.uk/admin/config/config.php on line 10
+[19-Feb-2020 12:19:00 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/fluidsit/app.gravitysites.co.uk/admin/config/config.php on line 10
+[19-Feb-2020 12:19:02 Europe/London] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /home/fluidsit/app.gravitysites.co.uk/admin/config/config.php on line 10
+[19-Feb-2020 12:35:55 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 12:36:00 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 12:36:13 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 12:36:19 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 12:36:22 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 12:36:32 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/url_helper.php on line 4
+[19-Feb-2020 12:37:40 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/admin_url_helper.php on line 4
+[19-Feb-2020 12:37:41 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/admin_url_helper.php on line 4
+[19-Feb-2020 12:38:23 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/admin_url_helper.php on line 4
+[19-Feb-2020 12:38:50 Europe/London] PHP Fatal error:  Cannot redeclare redirect() (previously declared in /home/fluidsit/app.gravitysites.co.uk/frontend/helpers/url_helper.php:4) in /home/fluidsit/app.gravitysites.co.uk/admin/helpers/admin_url_helper.php on line 4
+[19-Feb-2020 16:20:30 Europe/London] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/fluidsit/app.gravitysites.co.uk/frontend/views/posts/index.php on line 11
+[19-Feb-2020 16:20:37 Europe/London] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/fluidsit/app.gravitysites.co.uk/frontend/views/posts/index.php on line 10
+[19-Feb-2020 23:08:24 Europe/London] PHP Fatal error:  require_once(): Failed opening required '/home/fluidsit/app.gravitysites.co.uk/frontend/models/User.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Controller.php on line 10
+[19-Feb-2020 23:13:19 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../frontend/models/User.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/frontend/libraries/Controller.php on line 10

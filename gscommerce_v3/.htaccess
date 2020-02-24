@@ -1,0 +1,7 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine on
+  RewriteRule ^$ home/fluidsit/app.gravitysites.co.uk/public/ [L]
+  RewriteRule (.*) home/fluidsit/app.gravitysites.co.uk/public/$1 [L]
+  RewriteRule ^$ home/fluidsit/app.gravitysites.co.uk/admin/ [L]
+  RewriteRule (.*) home/fluidsit/app.gravitysites.co.uk/admin/$1 [L]
+</IfModule>

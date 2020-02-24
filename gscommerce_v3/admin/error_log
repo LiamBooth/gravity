@@ -1,0 +1,238 @@
+[18-Feb-2020 19:36:56 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[18-Feb-2020 19:46:00 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[18-Feb-2020 19:46:00 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[19-Feb-2020 12:20:57 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[19-Feb-2020 12:22:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:22:20 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:23:04 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[19-Feb-2020 12:23:05 Europe/London] PHP Fatal error:  require(): Failed opening required 'APPROOT/views/inc/header.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/index.php on line 1
+[19-Feb-2020 12:23:49 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:25:13 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:25:15 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:25:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:25:16 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php:18
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/views/pages/index.php(1): require()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once('/home/fluidsit/...')
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Pages.php(14): Controller->view('pages/index', Array)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Pages->index()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/header.php on line 18
+[19-Feb-2020 12:32:01 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php:5
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(27): Posts->__construct()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php on line 5
+[19-Feb-2020 12:33:11 Europe/London] PHP Fatal error:  Uncaught Error: Call to undefined function redirect() in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php:5
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(27): Posts->__construct()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#2 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php on line 5
+[19-Feb-2020 12:53:26 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../models/User.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php on line 10
+[19-Feb-2020 17:15:02 Europe/London] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/fluidsit/app.gravitysites.co.uk/admin/views/posts/index.php:20
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(19): Controller->view('posts/index', Array)
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#4 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/posts/index.php on line 20
+[19-Feb-2020 17:15:26 Europe/London] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/fluidsit/app.gravitysites.co.uk/admin/views/posts/index.php:20
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php(20): require_once()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(19): Controller->view('posts/index', Array)
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#4 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/views/posts/index.php on line 20
+[19-Feb-2020 17:17:48 Europe/London] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/fluidsit/app.gravitysites.co.uk/admin/views/posts/index.php on line 21
+[19-Feb-2020 17:23:00 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'N' in 'where clause' in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:48:37 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY posts.created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:48:37 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY posts.created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:48:55 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY posts.created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:48:57 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY posts.created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:52:13 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY posts.created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:52:13 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY posts.created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:52:15 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY posts.created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:52:43 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'users.created_at' in 'field list' in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(17): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:53:31 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 20:53:32 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'FROM posts
+                        ORDER BY created_at DESC' at line 4 in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(67): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/models/Post.php(16): Database->resultSet()
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Posts.php(13): Post->getPosts()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Posts->index()
+#5 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#6 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
+[19-Feb-2020 23:57:56 Europe/London] PHP Fatal error:  require_once(): Failed opening required '../admin/models/Package.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Controller.php on line 10
+[20-Feb-2020 16:07:17 Europe/London] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/navbar.php on line 349
+[20-Feb-2020 16:07:17 Europe/London] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/navbar.php on line 349
+[20-Feb-2020 16:07:18 Europe/London] PHP Parse error:  syntax error, unexpected end of file, expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/fluidsit/app.gravitysites.co.uk/admin/views/inc/navbar.php on line 349
+[22-Feb-2020 16:07:57 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/fluidsit/app.gravitysites.co.uk/admin/views/packages/index.php on line 43
+[22-Feb-2020 16:08:12 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/fluidsit/app.gravitysites.co.uk/admin/views/packages/index.php on line 43
+[22-Feb-2020 16:08:13 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/fluidsit/app.gravitysites.co.uk/admin/views/packages/index.php on line 43
+[22-Feb-2020 16:08:28 Europe/London] PHP Parse error:  syntax error, unexpected '?' in /home/fluidsit/app.gravitysites.co.uk/admin/views/packages/index.php on line 43
+[22-Feb-2020 16:09:02 Europe/London] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/fluidsit/app.gravitysites.co.uk/admin/views/packages/index.php on line 39
+[22-Feb-2020 16:09:19 Europe/London] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/fluidsit/app.gravitysites.co.uk/admin/views/packages/index.php on line 39
+[24-Feb-2020 12:21:14 Europe/London] PHP Parse error:  syntax error, unexpected 'endforeach' (T_ENDFOREACH) in /home/fluidsit/app.gravitysites.co.uk/admin/views/packages/index.php on line 63
+[24-Feb-2020 13:01:26 Europe/London] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Y' in 'field list' in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php:62
+Stack trace:
+#0 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php(62): PDOStatement->execute()
+#1 /home/fluidsit/app.gravitysites.co.uk/admin/models/Package.php(69): Database->execute()
+#2 /home/fluidsit/app.gravitysites.co.uk/admin/controllers/Packages.php(125): Package->deletePackage(NULL)
+#3 /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Core.php(43): Packages->delete()
+#4 /home/fluidsit/app.gravitysites.co.uk/admin/index.php(4): Core->__construct()
+#5 {main}
+  thrown in /home/fluidsit/app.gravitysites.co.uk/admin/libraries/Database.php on line 62
